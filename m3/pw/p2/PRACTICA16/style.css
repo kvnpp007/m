@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; }
+.imagen { width: 20px; height: 20px; }
+.GFelinos { font-family: fantasy; font-size: 70px; font: bold; font-weight: 10; text-shadow: #000 0px 0px 35px; text-align: center; color: rgb(167, 84, 16); }
+#contenedor { width: 1200px; height: 1000px; margin: 0.5em auto; padding: 0.5em; }
+.imPpal { margin-left: 270px; }
+#header { height: 10%; background: #08298A; border-radius: 1em; margin: .5em; }
+#nav { height: 2%; background: #0929BA; border-radius: 1em; margin: 1em; }
+.menu { float: right; }
+.menu li { display: inline-block; }
+.menu a { color: white; font-family: Arial; font-weight: bold; text-decoration: none; padding: 20px; }
+.menu a:hover { background: #B52025; }
+.col { width: 265px; display: inline-block; vertical-align: top; text-align: justify; padding: 20px; }
+.col h2 { color: #B52025; }
+.row { text-align: center; }
+#contenido { height: 43%; margin: 1em; }
+.jaguar { width: 169px; height: 169px; border-radius: 1em; float: left; }
+.Twhite { width: 169px; height: 169px; border-radius: 1em; border: 0.5em; float: left; }
+.derecha { float: right; }
+div.clear { clear: both; }
+.enlace { border: 0; padding: 0; background-color: transparent; color: blue; border-bottom: 1px solid blue; }
+A.clase2:visited {font-size: 12;color: white;}
+A.clase2:active {font-size: 12;color: white;}
+A.clase2:link {font-size: 12;color: white;}
+A.clase2:hover {font-size: 12;color: #ffff33;}
+#footer { height: 5%; background: #2E9AFE; border-radius: 1em; margin: .1em; }
+.rss { background: #FFF url(calendario.png) repeat left center;}
+.cale { text-align: center; }
+.calendar { width: 50px; height: 50px; text-align: center; }
+.contacto { width: 50px; height: 50px; }
+.coment { width: 50px; height: 50px; }
+#section { height: 95%; width: 71%; background: #81BEF7; border-radius: 1em; float: left; margin: 0.5em; }
+#aside { height: 95%; width: 25%; background: #81BEF7; border-radius: 1em; float: right; margin: 0.5em; }
+.anuncio { width: 99%; margin-left: 1px; border-radius: 1em;}
+.articulo { height: 42%; width: 96%; background: #08298A; margin: 1em; border-radius: 1em; }
+.copyright { font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; color: #636466; text-align: right; }

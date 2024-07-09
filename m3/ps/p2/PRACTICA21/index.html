@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Suscripción (Práctica 21).</title>
+    <style>
+        h1 {text-align: center;}
+        td {padding: 01em 1em;}
+    </style>
+</head>
+<body>
+    <center><h1>Pérez Pérez, Kevin Fernando. Cuarto Semestre de Programación.</h1></center>
+    <div align="center">
+        <img src="img/desktopc.png" alt="Cimarron" width="150" height="100">
+        <h1>Suscrici&oacute;n electr&oacute;nica a nuestro bolet&iacute;n</h1>
+        <p>Nota: Esté es un formulario en el que los datos se env&iacute;an a otra p&aacute;gina</p>
+        <form action="comprobar.php" method="post">
+            <div style="border: 2px solid black;">
+                <p>Nombre: <input type="text" name="nombre"></p>
+                <p>Apellidos: <input type="text" name="apellido" size="40"></p>
+                <p>Email: <input type="text" name="email" size="35"></p>
+                <p>Contrase&ntilde;a: <input type="password" name="contras" size="8"></p>
+            </div>
+            <table>
+                <tr>
+                    <td><td><td><td><td><td><td><td><td>
+                        <b>SEXO</b><br>
+                        <input type="radio" name="sexo" value="Hombre">
+                        Hombre <br>
+                        <input type="radio" name="sexo" value="Mujer">
+                        Mujer <br>
+                    </td></td></td></td></td></td></td></td></td>
+                    <b>NIVEL DE ESTUDIO</b><br>
+                    <center>
+                        <input type="radio" name="estudios" value="Primaria">
+                        Primaria <br>
+                        <input type="radio" name="estudios" value="Secundaria">
+                        Secundaria <br>
+                        <input type="radio" name="estudios" value="Preparatoria" checked = "checked">
+                        Preparatoria <br>
+                        <input type="radio" name="estudios" value="Licenciatura">
+                        licenciatura <br>
+                        <input type="radio" name="estudios" value="Maestria">
+                        Maestria <br>
+                    </center>
+                    </td></td></td></td></td></td></td></td></td>
+                    <td><td><td><td><td><td><td><td><td>
+                    <b>INTERESADO EN LOS SIGUENTES TEMAS:</b><br>
+                    <center>
+                        <input type="checkbox" name="JavaScript">
+                        JavaScript <br>
+                        <input type="checkbox" name="Android">
+                        Android <br>
+                        <input type="checkbox" name="PHP">
+                        PHP <br>
+                        <input type="checkbox" name="VisualFoxPro">
+                        Visual Fox Pro <br>
+                        <input type="checkbox" name="C++">
+                        C++ <br>
+                    </center>
+                    </td></td></td></td></td></td></td></td></td>
+                </tr>
+            </table>
+            <p><b>DÍA DE LA SEMANA QUE LE INTERESA RECIBIRLO:</b></p>
+            <div style="border: 2px solid black">
+                <select name="dia">
+                    <option>Día de la semana:</option>
+                    <option value="Lunes">lunes</option>
+                    <option value="Martes">martes</option>
+                    <option value="Miercoles">miercoles</option>
+                    <option value="Jueves">jueves</option>
+                    <option value="Viernes">viernes</option>
+                </select>
+            </div>
+            <p><b>SU OPINIÓN:</b></p>
+            <textarea name="omentario" rows="5" cols="50">
+                COMENTARIO:
+            </textarea>
+            <p>
+                <input type="submit" value="Comprobar el formulario">
+                <input type="reset" value="Borrar todo">
+            </p>
+        </form>
+    </div>
+    <center><h1>Pérez Pérez, Kevin Fernando. Cuarto Semestre de Programación.</h1></center>
+</body>
+</html>
+<!-- Pérez Pérez, Kevin Fernando. Cuarto Semestre de Programación T.M.-->

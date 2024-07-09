@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleform.css">
+    <link rel="icon" href="img/cimarron.png">
+    <title>Práctica 24</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+                    <h1>Base de datos Escolar</h1>
+                    <p>"Centro de Bachillerato Tecnológico Industrial y de Servicios Número 230"</p>
+        </div>
+		<nav>
+			<div class="topnav">
+				<a href="index.html">REGRESAR</a>
+				<a href="index.html" style="float:right">INDEX</a>
+			</div>
+		</nav>
+    </header>
+    <section>
+		<div class="container">
+			<div class="card">
+				<div class="row">
+					<h2>Registro de alumnos de nuevo ingreso</h2>
+					<form name="form" action="registro.php" method="post">
+						<div class="row">
+							<div class="col-25">
+								<label for="nombres">Nombres</label>
+							</div>
+							<div class="col-75">
+								<input type="text" id="nombres" name="nombres" placeholder="Tus nombre..." required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="apellidos">Apellidos</label>
+							</div>
+							<div class="col-75">
+								<input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos..." required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="telefono">Dirección</label>
+							</div>
+							<div class="col-75">
+								<input type="text" id="direccion" name="direccion" placeholder="Tú dirección..." required>
+							</div>
+						</div>
+                        <div class="row">
+							<div class="col-25">
+								<label for="telefono">Teléfono</label>
+							</div>
+							<div class="col-75">
+								<input type="text" id="telefono" name="telefono" placeholder="Tú teléfono..." required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="correo">Correo electrónico</label>
+							</div>
+							<div class="col-75">
+								<input type="text" id="email" name="email" placeholder="Tú correo electrónico..." required>
+							</div>
+						</div>
+                        <div class="row">
+							<div class="col-25">
+								<label for="correo">Número de control</label>
+							</div>
+							<div class="col-75">
+								<input type="text" id="ncontrol" name="ncontrol" placeholder="Tú número de control...">
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<input type="submit" value="Grabar datos"> 
+							<input type="reset" value="Borrar todo">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+    </section>
+    <footer>
+        <div class="footer">
+        <h2>Pérez Pérez, Kevin Fernando.</h2>
+        <h3>Cuarto Semestre de Programación.</h3>
+        </div>
+    </footer>
+</body>
+</html>
+<!-- Pérez Pérez, Kevin Fernando. Cuarto Semestre de Programación T.M.-->

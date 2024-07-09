@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+video { max-width: 300px; max-height: 300px; }
+
+.conteiner{
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.containergrids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.itemgrids {
+  max-width: calc(90%/3-100px);
+  max-height: calc(90%/4-100px);
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+img { max-width: 300px; max-height: 300px; }
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+  /* Header/Blog Title */
+.header {
+    background-image:linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/original.jpg);
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+    align-items:center;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1{
+  font-size:75px;
+  line-height:80px;
+  color:#F9FAFC;
+  text-transform:uppercase;
+  margin-bottom:25px;
+}
+.header p{
+  font-size:16px;
+  color:#C5C5C5;
+  padding:0 250px;
+  margin-bottom:25px;
+}
+
+h1{
+  font-size:50px;
+  line-height:70px;
+  color:#323337;
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+
+h2{
+  font-size:25px;
+  line-height:70px;
+  color:#323337;
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+
+h3{
+  font-size:25px;
+  line-height:70px;
+  color:#323337;
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+
+p{
+  font-size:16px;
+  color:#414247;
+  margin:25px 0 45px 0;
+}
+
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+  flex: 1; /* Hacer que las columnas ocupen el mismo espacio */
+  margin: 5px; /* Añadir un margen entre las columnas */
+  box-sizing: border-box; /* Considerar el padding dentro del ancho especificado */
+}
+
+  /* Fake image */
+.fakecontainer {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 100%;
+    padding: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="submit"], input[type="reset"] {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 4px 2px;
+  padding: 16px 32px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+  /* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que las columnas se envuelvan cuando no hay suficiente espacio */
+}
+
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {   
+    width: 100%;
+    padding: 0;
+    }
+}
+
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+    float: none;
+    width: 100%;
+    }
+}

@@ -1,0 +1,2 @@
+SELECT nombre FROM estudiante WHERE idlector IN(SELECT idlector FROM prestamo WHERE idlibro IN(SELECT idlibro FROM libro WHERE area='SQL'));
+SELECT titulo FROM libro WHERE idlibro IN(SELECT idlibro FROM prestamo WHERE fechadevolucion='2024-08-01');
